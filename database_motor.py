@@ -31,3 +31,5 @@ coleccion.delete_one({'edad': {'$gte':65}}) """
 # Eliminar base de datos
 client.drop_database('prueba')
 print(client.list_database_names())
+
+z = 3
